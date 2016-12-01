@@ -10,7 +10,7 @@ source:
     sha256: 09fbd0d8d684d0fdf5104358e80415a0648c8fdd137345a5eca0374fcca14324
 
 build:
-    number: 0
+    number: 1
     script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
         - matplotlib
         - numpy
         - pandas
-        - pyqt
+        - pyqt 4.11.*
         - python
         - scipy
         - six
