@@ -18,11 +18,12 @@ requirements:
         - python
         - setuptools
     run:
+        - python
         - matplotlib
         - numpy
         - pandas
-        - pyqt
-        - python
+        - qt 4.8.*
+        - pyqt 4.11.*
         - scipy
         - six
 
