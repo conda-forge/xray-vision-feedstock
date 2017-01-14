@@ -21,6 +21,7 @@ requirements:
         - matplotlib
         - numpy
         - pandas
+        - qt 4.8.*
         - pyqt 4.11.*
         - python
         - scipy
