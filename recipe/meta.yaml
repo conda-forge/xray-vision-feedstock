@@ -1,4 +1,4 @@
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
     name: xray-vision
@@ -7,10 +7,10 @@ package:
 source:
     url: https://github.com/Nikea/xray-vision/archive/v{{ version }}.tar.gz
     fn: xray-vision-v{{ version }}.tar.gz
-    sha256: 09fbd0d8d684d0fdf5104358e80415a0648c8fdd137345a5eca0374fcca14324
+    sha256: 07317f259d8e55b1fc39959695d2216b4298ca402c89f210116dd08c7991cb5b
 
 build:
-    number: 1
+    number: 0
     script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -49,3 +49,4 @@ extra:
         - ericdill
         - licode
         - tacaswell
+        - CJ-Wright
