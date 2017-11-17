@@ -14,9 +14,7 @@ Summary: Visualization widgets and plotting helpers targeted at X-Ray Sciences
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/xray-vision-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xray-vision-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/xray-vision-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/xray-vision-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/xray-vision-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/xray-vision-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/xray-vision-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xray-vision-feedstock)
 
 Current release info
 ====================
