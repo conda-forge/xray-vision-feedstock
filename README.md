@@ -14,12 +14,15 @@ Summary: Visualization widgets and plotting helpers targeted at X-Ray Sciences
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/xray-vision-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xray-vision-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/xray-vision-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/xray-vision-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xray-vision/badges/version.svg)](https://anaconda.org/conda-forge/xray-vision)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xray-vision/badges/downloads.svg)](https://anaconda.org/conda-forge/xray-vision)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-xray--vision-green.svg)](https://anaconda.org/conda-forge/xray-vision) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/xray-vision.svg)](https://anaconda.org/conda-forge/xray-vision) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/xray-vision.svg)](https://anaconda.org/conda-forge/xray-vision) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/xray-vision.svg)](https://anaconda.org/conda-forge/xray-vision) |
 
 Installing xray-vision
 ======================
