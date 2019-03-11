@@ -27,6 +27,7 @@ requirements:
 
 test:
     imports:
+        - PyQt5
         - xray_vision
         - xray_vision.backend
         - xray_vision.backend.mpl
