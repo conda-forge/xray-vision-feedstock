@@ -24,6 +24,8 @@ conda install --yes --quiet conda-forge-ci-setup=2 conda-build -c conda-forge
 # set up the condarc
 setup_conda_rc "${FEEDSTOCK_ROOT}" "${RECIPE_ROOT}" "${CONFIG_FILE}"
 
+conda config --set channel_priority strict
+
 source run_conda_forge_build_setup
 
 # make the build number clobber
