@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About xray-vision
 =================
 
@@ -18,8 +14,17 @@ Summary: Visualization widgets and plotting helpers targeted at X-Ray Sciences
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/xray-vision-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/xray-vision-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4422&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xray-vision-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
