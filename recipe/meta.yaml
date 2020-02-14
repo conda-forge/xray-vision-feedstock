@@ -11,7 +11,7 @@ source:
 
 build:
     noarch: python
-    number: 0
+    number: 1
     script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -20,7 +20,7 @@ requirements:
         - pip
     run:
         - numpy
-        - matplotlib
+        - matplotlib-base
         - pyqt
         - python
         - six
