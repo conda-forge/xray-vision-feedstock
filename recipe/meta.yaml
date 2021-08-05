@@ -22,7 +22,9 @@ requirements:
     - python >=3.6
     - matplotlib
     - numpy
+    - pandas
     - pyqt
+    - scipy
     - sip
     - six
 
