@@ -3,7 +3,7 @@ About xray-vision
 
 Home: https://github.com/Nikea/xray-vision
 
-Package license: 3-Clause BSD
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xray-vision-feedstock/blob/master/LICENSE.txt)
 
@@ -36,6 +36,7 @@ Installing `xray-vision` from the `conda-forge` channel can be achieved by addin
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `xray-vision` can be installed with:
@@ -116,5 +117,6 @@ Feedstock Maintainers
 
 * [@CJ-Wright](https://github.com/CJ-Wright/)
 * [@licode](https://github.com/licode/)
+* [@mrakitin](https://github.com/mrakitin/)
 * [@tacaswell](https://github.com/tacaswell/)
 

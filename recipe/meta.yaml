@@ -1,50 +1,59 @@
+{% set name = "xray-vision" %}
 {% set version = "0.0.9" %}
 
 package:
-    name: xray-vision
-    version: {{ version }}
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-    url: https://github.com/Nikea/xray-vision/archive/v{{ version }}.tar.gz
-    fn: xray-vision-v{{ version }}.tar.gz
-    sha256: dfa783b5035c54847dd34f951b1d758bc4092e78c85f76be69c895e17f35bdca
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xray-vision-{{ version }}.tar.gz
+  sha256: 83dc7e8a155f6f31cc19fda608f03db1fb3b294960198dc6da0ecdd250ef1fd4
 
 build:
-    noarch: python
-    number: 0
-    script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  noarch: python
+  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-    host:
-        - python
-        - pip
-    run:
-        - numpy
-        - matplotlib
-        - pyqt
-        - python
-        - six
+  host:
+    - python >=3.6
+    - pip
+  run:
+    - python >=3.6
+    - matplotlib
+    - numpy
+    - pandas
+    - pyqt
+    - scipy
+    - sip
+    - six
 
 test:
-    imports:
-        - PyQt5
-        - xray_vision
-        - xray_vision.backend
-        - xray_vision.backend.mpl
-        - xray_vision.mask
-        - xray_vision.messenger
-        - xray_vision.messenger.mpl
-        - xray_vision.mpl_plotting
-        - xray_vision.qt_widgets
-        - xray_vision.utils
+  imports:
+    - PyQt5
+    - xray_vision
+    - xray_vision.backend
+    - xray_vision.backend.mpl
+    - xray_vision.mask
+    - xray_vision.messenger
+    - xray_vision.messenger.mpl
+    - xray_vision.mpl_plotting
+    - xray_vision.qt_widgets
+    - xray_vision.utils
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
-    home: https://github.com/Nikea/xray-vision
-    license: 3-Clause BSD
-    summary: Visualization widgets and plotting helpers targeted at X-Ray Sciences
+  home: https://github.com/Nikea/xray-vision
+  license: BSD-3-Clause
+  license_file: LICENSE
+  summary: Visualization widgets and plotting helpers targeted at X-Ray Sciences
 
 extra:
-    recipe-maintainers:
-        - licode
-        - tacaswell
-        - CJ-Wright
+  recipe-maintainers:
+    - licode
+    - tacaswell
+    - CJ-Wright
+    - mrakitin
