@@ -1,5 +1,5 @@
 {% set name = "xray-vision" %}
-{% set version = "0.0.9" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xray-vision-{{ version }}.tar.gz
-  sha256: 83dc7e8a155f6f31cc19fda608f03db1fb3b294960198dc6da0ecdd250ef1fd4
+  sha256: d7ef6dd6eacf7fe611f49d2d5ffb833e9f322e7d528cc7215b6d7a6e15a3c079
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
