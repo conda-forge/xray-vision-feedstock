@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xray-vision-{{ version }}.tar.gz
-  sha256: 35446f098dfdaadfc25f29f8df16d3dac5c46adc4741fadfd012a9ade3e96efe
+  sha256: d7ef6dd6eacf7fe611f49d2d5ffb833e9f322e7d528cc7215b6d7a6e15a3c079
 
 build:
   noarch: python
